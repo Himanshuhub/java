@@ -22,9 +22,9 @@ class StringManipulatorTesting {
     System.out.println(a2); // 2
     System.out.println(b2); // null
 
-    String word = manipulator.concatSubstring("Hello", 1, 2, "world");
-    System.out.println(word); // eworld
-    
+    String word2 = manipulator.concatSubstring("Hello", 1, 2, "world");
+    System.out.println(word2); // eworld
+
   }
 
 }

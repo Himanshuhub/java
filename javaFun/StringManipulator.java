@@ -26,5 +26,9 @@ public class StringManipulator {
       return b;
     }
   }
-  public String concatSubstring(String, int, int, String)
+  public String concatSubstring(String s6, int i1, int i2, String s7){
+    String r = s6.substring(i1,i2);
+    r = r + s7;
+    return r;
+  }
 }
