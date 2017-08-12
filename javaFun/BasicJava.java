@@ -1,6 +1,8 @@
+import java.util.*;
+
 class BasicJava {
   public static void main(String[] args) {
-    printSum();
+    iterateArray();
   }
   public static void print1255() {
     for (int i = 1; i<=255; i++) {
@@ -21,4 +23,14 @@ class BasicJava {
         System.out.print("New number: "+ i+ " Sum: "+j +"\n");
     }
   }
+  public static void iterateArray() {
+    int[] myArray = {1,3,5,7,9,13};
+    for (int i=0; i < myArray.length; i++ ) {
+      System.out.print(myArray[i]+"\n");
+    }
+  }
+  void static max() {
+
+  }
+
 }
