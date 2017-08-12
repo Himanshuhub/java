@@ -63,6 +63,16 @@ public class StringManipulator {
         System.out.println(dynamicArray.get(l));
     }
 
+    for (int m = 0; m < dynamicArray.size(); m++){
+        String name = dynamicArray.get(m);
+        System.out.println("hello " + name);
+        // other operations using name
+    }
+
+    for (String name : dynamicArray){
+        System.out.println("hello " + name);
+        // other operations using name
+    }
 
 
     return r;
