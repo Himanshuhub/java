@@ -31,6 +31,7 @@ class BasicJava {
   }
   void static max() {
 
+
   }
 
 }
